@@ -26,9 +26,7 @@ This project was completed in 2022 as part of my early exploration of machine le
 ## Results
 - The final **Bagging Trees** model performed well, with sensitivity set at 0.35, balancing true positive and false positive rates.
 - Important variables affecting cancellation predictions include `lead_time`, `no_of_special_requests`, and `avg_price_per_room`.
+- Although **Bagging Trees** is a black-box model, much attention was given to interpreting how the model works. I used partial dependency plots to explain the influence of key variables on predictions, providing insights into the decision-making process of the model.
 - The model was applied to the scoring dataset, providing insights into which reservations were likely to be canceled, with a validation accuracy of 64% for high-risk bookings.
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/hotel-reservation-cancellation.git
+
